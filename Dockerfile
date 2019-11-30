@@ -1,5 +1,5 @@
 FROM golang:1.12 as build
-ARG VERSION
+ARG VERSION=1.13.0
 
 WORKDIR /app
 COPY ./ ./
